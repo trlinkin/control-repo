@@ -65,6 +65,8 @@ When you finish the instructions below, you will have the beginning of a best pr
  - Read more about permissions:
     - https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/permissions/permissions.md
 
+8. Log back into the GitLab UI as your user
+
 8. In the GitLab UI, create a project called `control-repo` and set the Namespace to be the `puppet` group
 
 10. On your laptop, clone this GitHub control repo
