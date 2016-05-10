@@ -67,19 +67,19 @@ When you finish the instructions below, you will have the beginning of a best pr
 
 8. Log back into the GitLab UI as your user
 
-8. In the GitLab UI, create a project called `control-repo` and set the Namespace to be the `puppet` group
+9. In the GitLab UI, create a project called `control-repo` and set the Namespace to be the `puppet` group
 
 10. On your laptop, clone this GitHub control repo
  - `git clone <repo URL>`
  - `cd control-repo`
 
-14. On your laptop, remove the origin remote
+11. On your laptop, remove the origin remote
  - `git remote remove origin`
 
-15. On your latptop, add your internal repo as the origin remote
+12. On your latptop, add your internal repo as the origin remote
  - `git remote add origin <SSH URL of your GitLab repo>`
 
-16. On your laptop, push the production branch of the repo from your machine up to your Git server
+13. On your laptop, push the production branch of the repo from your machine up to your Git server
  - `git push origin production`
 
 ### Stash
